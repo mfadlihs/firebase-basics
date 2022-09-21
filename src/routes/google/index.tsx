@@ -3,12 +3,7 @@ import GoogleLogin from "react-google-login";
 import { Config } from "tailwindcss";
 import { gapi, loadGapiInsideDOM } from "gapi-script";
 
-const GoogleAuth = async () => {
-	const gapi = await loadGapiInsideDOM();
-	const onSignin = googleUser => {
-		var profile = googleUser.getBasicProfile();
-	};
-
+const GoogleAuth = () => {
 	return (
 		<>
 			<div>
