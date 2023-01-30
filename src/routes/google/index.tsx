@@ -2,6 +2,7 @@ import React from "react";
 import GoogleLogin from "react-google-login";
 import { Config } from "tailwindcss";
 import { gapi, loadGapiInsideDOM } from "gapi-script";
+// import {} from "@types/color";
 
 const GoogleAuth = () => {
 	return (
